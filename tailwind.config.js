@@ -6,7 +6,14 @@ export default {
     "./src/App.jsx",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#00246B",
+        secondary: "#CADCFC",
+        dark: "#212121",
+        gray: "#727272",
+      }
+    },
   },
   plugins: [],
 }

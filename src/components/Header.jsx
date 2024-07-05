@@ -29,10 +29,10 @@ function Header() {
       {/* Search Bar */}
       <div className="col-span-3 row-start-2 lg:col-start-2 lg:row-start-1 lg:col-span-1">
         <form
-          className="flex border border-gray/50 rounded-full"
+          className="flex border border-gray/50 rounded-full :border-red hover:border-black"
           action="/search"
         >
-          <input type="search" className="w-full rounded-l-full" />
+          <input type="search" className="w-full rounded-l-full px-5 focus:outline-none" placeholder="Movie name..." />
           <button type="submit" className="px-2 py-1 rounded-r-full">
             <FontAwesomeIcon icon={faMagnifyingGlass} />
           </button>

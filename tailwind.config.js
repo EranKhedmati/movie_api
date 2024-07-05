@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/mian.jsx",
     "./src/App.jsx",
+    "./src/components/Header.jsx"
   ],
   theme: {
     extend: {
@@ -12,7 +13,10 @@ export default {
         secondary: "#CADCFC",
         dark: "#212121",
         gray: "#727272",
-      }
+      },
+      gridTemplateColumns: {
+        'header': "200px minmax(auto, 500px) minmax(auto, 400px)"
+      },
     },
   },
   plugins: [],

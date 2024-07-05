@@ -1,16 +1,12 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { Route, Routes } from "react-router-dom";
+import MainRoute from "./routes/MainRoute";
 
 function App() {
-
   return (
     <>
-      <div className="text-gray">
-        Hello
-        <FontAwesomeIcon icon={faMagnifyingGlass} />
-      </div>
+      <MainRoute />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

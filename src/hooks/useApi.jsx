@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-function useGetApi(url) {
+function useGetMovieList(url) {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -26,4 +26,4 @@ function useGetApi(url) {
   return {data, loading};
 }
 
-export {useGetApi}
+export {useGetMovieList}
